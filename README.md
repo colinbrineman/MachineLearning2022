@@ -1,3 +1,8 @@
 # MachineLearning2022
 
-Testing push.
+Ownership
+Rus - Machine Learning
+Al - Database management
+Colin - Github and Visualization
+Louisa - Visualization/Dashboarding
+Kristen - General Support/ ETL
