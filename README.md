@@ -18,3 +18,5 @@ price - quantitative variable for nightly rental price in U.S. dollars
 Room_type - categorical variable with three levels: entire home/apt., shared room, and private room
 neighborhood- location of the property
 Review_score - rating of the property 
+# Visualization analysis published on
+https://public.tableau.com/app/profile/louisamam/viz/FinalProjectAirbnbchicago/ChicagoAirbnbneighbouhood?publish=yes
