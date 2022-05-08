@@ -1,6 +1,6 @@
 # MachineLearning2022
 
-Ownership
+#Ownership
 * Rus - Machine Learning
 * Al - Database management
 * Colin - Github and Visualization
