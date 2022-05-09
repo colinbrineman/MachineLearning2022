@@ -19,5 +19,5 @@ Room_type - categorical variable with three levels: entire home/apt., shared roo
 neighborhood- location of the property
 Review_score - rating of the property
 
-#Dashboard  analysis published on
+# Dashboard  analysis published on
 https://public.tableau.com/app/profile/louisamam/viz/FinalProjectAirbnbchicago/ChicagoAirbnbneighbouhood?publish=yes
