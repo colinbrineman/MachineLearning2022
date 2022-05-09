@@ -13,7 +13,8 @@ Airbnb provids travellers an easy and convenient place to stay during their trav
 3-Does sentiments of reviews affect price?
 # Data Preparation
 In this project, we will be using  open source Chicago Airbnb data https://www.kaggle.com/datasets/jinbonnie/chicago-airbnb-open-data?resource=download to help understand the trends of Airbnb in chicago area 
-This dataset has 6398 observations and 16 features. we wanted to predict the price of a property per night using the type of property, the location , and the property’s review score. 
+This dataset has 6398 observations and 16 features. we wanted to predict the price of a property per night using the type of property, the location , and the property’s review score.
+
 price - quantitative variable for nightly rental price in U.S. dollars
 Room_type - categorical variable with three levels: entire home/apt., shared room, and private room
 neighborhood- location of the property
