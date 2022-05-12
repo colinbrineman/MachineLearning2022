@@ -39,7 +39,7 @@ HTML
 CSS
 Tableau 
 
-# Storage/Python/Pandas
+# Database Management
 For this project we set up the database our machine learning module would use. We utilized AWS to set up a Postgres DB hosted by AWS. The DB was then connected to pgAdmin in which the schema was set and data imported. Once fully connected the DB information was passed to into the jupyter notebook environment.
 
 ## Data Analysis
