@@ -50,6 +50,10 @@ Key features were selected from the data set to be used in a machine learning mo
 - Bathrooms
 - Beds
 
+The code below is the function used to clean the data and structure it to fit the machine learning model
+
+![image](https://user-images.githubusercontent.com/92827264/168172316-db630303-d530-439d-a687-78d11d357d36.png)
+
 The following models were used to try and train the data
 - Random Forest Classifier
 - Neural Network
