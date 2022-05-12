@@ -32,14 +32,15 @@ Room_type - categorical variable with three levels: entire home/apt., shared roo
 neighborhood- location of the property
 Review_score - rating of the property
 
-# This Porject Built With:
+# This Project Built With:
 Python Pandas
 PostgreSQL
 HTML
 CSS
 Tableau 
 
-# Python/Pandas
+# Storage/Python/Pandas
+For this project we set up the database our machine learning module would use. We utilized AWS to set up a Postgres DB hosted by AWS. The DB was then connected to pgAdmin in which the schema was set and data imported. Once fully connected the DB information was passed to into the jupyter notebook environment.
 
 ## Data Analysis
 
