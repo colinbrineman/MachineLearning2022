@@ -12,7 +12,9 @@ Airbnb provids travellers an easy and convenient place to stay during their trav
 Questions Addressed ?
 
 1-Which are the popular neighborhoods, their average prices and no. of listings.
+
 2-What are percent share of different property type and room type.
+
 3-How the pricing is varying with location, property type, reviews.
 
 # Why Airbnb ?
