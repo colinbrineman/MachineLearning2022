@@ -17,7 +17,8 @@ Questions Addressed ?
 
 # Why Airbnb ?
 
-Airbnb has become a very popular way of traveling for many reasons, especially during covid with their contactless check-in. Also, it is becoming popular way for people to make an extra income. It is a great way to make extra revenue, and you can do it on your own time, with pretty minimal work. So we were interested to see how one can tell if their property would be worth listing on Airbnb and could create a good second source of income. In order to do this we look into answering the following questions: 
+Airbnb is a leading website where people can book beds, rooms, apartments, homes etc. all around the world. It provides a platform for the people to rent out their places at their convenience without involving complex channels or doing major investments. Users can also find a place to stay at much competitive prices as compared to hotels. Through Airbnb, people can find place to stay even in the areas where the likelihood of having hotels is very less. Many a times, even people prefer to stay in local settings, with local people.
+
 Airbnb Statistics •7 million listings worldwide • 2.9 million hosts on Airbnb worldwide in 2022 • Worldwide value is $93.01 billion 
 
 # Data Preparation
@@ -35,6 +36,24 @@ PostgreSQL
 HTML
 CSS
 Tableau 
+
+# Python
+
+## Data Analysis
+
+The data set was obtained from Inside Airbnb which does web scraping to gather data on rentals.
+Key features were selected from the data set to be used in a machine learning model
+- Neighborhood
+- Room Type
+- Accommodates
+- Bedrooms
+- Bathrooms
+- Beds
+
+The following models were used to try and train the data
+- Random Forest Classifier
+- Neural Network
+
 
 # Visualization Tool
  We used Tableau as the Data Visualization tool as it is a very powerful, secure and flexible end to end analytics platform where we can visualize our data quickly and easily by creating interactive dashboards and convey an overall story using storyboard. 
