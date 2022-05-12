@@ -52,11 +52,28 @@ Key features were selected from the data set to be used in a machine learning mo
 
 The code below is the function used to clean the data and structure it to fit the machine learning model
 
-![image](https://user-images.githubusercontent.com/92827264/168172316-db630303-d530-439d-a687-78d11d357d36.png)
+![image](https://user-images.githubusercontent.com/92827264/168172563-ef4a3632-568f-46d8-a57b-2257edf8d561.png)
 
 The following models were used to try and train the data
 - Random Forest Classifier
 - Neural Network
+
+## Machine Learning
+
+The first Machine Learning Model that was used for was a Random Forest Classifier Model. Since this model uses classification we had to use bins to classify each listing into a category. 
+
+![image](https://user-images.githubusercontent.com/92827264/168172725-23cc93dd-1a53-4f6e-b9d8-d474e8fcd104.png)
+
+The accuracy of this model was about 34%, which better than double from random.
+
+![image](https://user-images.githubusercontent.com/92827264/168172754-9ee42190-3219-45ac-9522-ce2d536f38c9.png)
+
+The next Machine Learning Model that was used was a Tensorflow Neural Network Model. This model had 86 features (which are the key features encoded) with 3 hidden layers. The accuracy of this model was about 37%
+
+![image](https://user-images.githubusercontent.com/92827264/168172864-fb568e02-ec9f-47c4-b5c1-038d2cefb22d.png)
+![image](https://user-images.githubusercontent.com/92827264/168172916-8d8073b2-b13f-4ea2-9438-20401c101992.png)
+
+To improve on these models we would need more time to feature engineering. The dataset doesn’t give important information like quality of furnishings, appliances, or the place itself.
 
 
 # Visualization Tool
