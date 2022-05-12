@@ -39,7 +39,7 @@ HTML
 CSS
 Tableau 
 
-# Python
+# Python/Pandas
 
 ## Data Analysis
 
