@@ -30,6 +30,10 @@ def clean_listings(df):
     neighborhood_dict = dict(zip(neighbourhoods.index,np.arange(len(neighbourhoods.index))))
     df['neighbourhood_cleansed'] = df['neighbourhood_cleansed'].apply(lambda x:neighborhood_dict[x])
 
+    #Make bins for price ranges
+    price_bins = [0.0, 49.0, 74.0, 99.0, 124.0, 149.0, 199.0, 299.0, 100000.0]
+    price_labels = ['0-49','50-74','75-99','100-124','125-149','150-199', '200-299', '300+']
+
     #Convert Bathrooms from String to Float
     df['bathrooms_text'] = df['bathrooms_text'].str.replace('-bath', '0.5')
     df['bathrooms_text'] = df['bathrooms_text'].str.extract('(\d*\.\d+|\d+)', expand=False)
@@ -37,9 +41,7 @@ def clean_listings(df):
     df["price_range"] = pd.cut(df["price"], price_bins, labels=price_labels)
     df.dropna()
 
-    price_bins = [0.0, 49.0, 74.0, 99.0, 124.0, 149.0, 199.0, 299.0, 100000.0]
 
-    price_labels = ['0-49','50-74','75-99','100-124','125-149','150-199', '200-299', '300+']
      
     # Drop row that are not needed
     df.drop(['id','latitude','longitude','minimum_minimum_nights','maximum_minimum_nights',
