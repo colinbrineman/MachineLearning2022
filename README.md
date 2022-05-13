@@ -92,3 +92,7 @@ Pricing analysis
 
 # The tableau visualization has been published and can be directly viewed using the following link: (Tableau server link):
 https://public.tableau.com/app/profile/louisamam/viz/FinalProjectAirbnbchicago/ChicagoAirbnbneighbouhood?publish=yes
+
+
+#Html link:
+https://colinbrineman.github.io/MachineLearning2022/website/index.html
